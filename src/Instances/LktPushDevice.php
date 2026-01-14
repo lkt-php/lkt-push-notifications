@@ -2,7 +2,9 @@
 
 namespace Lkt\PushNotifications\Instances;
 
-class LktPushDevice
+use Lkt\Mailing\Generated\GeneratedLktPushDevice;
+
+class LktPushDevice extends GeneratedLktPushDevice
 {
     const COMPONENT = 'lkt-push-device';
 }

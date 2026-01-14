@@ -2,7 +2,9 @@
 
 namespace Lkt\PushNotifications\Instances;
 
-class LktPushNotification
+use Lkt\Mailing\Generated\GeneratedLktPushNotification;
+
+class LktPushNotification extends GeneratedLktPushNotification
 {
     const COMPONENT = 'lkt-push-notification';
 }
